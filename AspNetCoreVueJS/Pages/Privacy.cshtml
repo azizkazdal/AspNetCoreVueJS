@@ -1,0 +1,15 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<privacy-page inline-template>
+    <div>
+        <h1>@ViewData["Title"]</h1>
+
+        <p>{{privacyPageContent}}</p>
+    </div>
+</privacy-page>
+
+<script src="~/js/component/privacyPage.js" type="module"></script>

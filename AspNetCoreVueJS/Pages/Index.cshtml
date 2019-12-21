@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<index-page inline-template>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>{{indexpageContent}}</p>
+    </div>
+</index-page>
+
+<script src="~/js/component/indexPage.js" type="module"></script>
